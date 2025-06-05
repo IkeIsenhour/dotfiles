@@ -121,5 +121,8 @@ The rest are cosmetic.
 
 ## Stow Dot Files
 
-1. From the root of this repository, run `stow -t ~ nvim`
-2. From the root of this repository, run `stow -t ~ tmux`
+From the root of this repository, run these stow commands
+
+- `stow -t ~ nvim`
+- `stow -t ~ tmux`
+- `stow -t ~ zsh`
