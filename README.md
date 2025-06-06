@@ -23,7 +23,7 @@
 ### Neovim Explanation
 
 I tried to build a Nvim config without using a base configuration, such as NvChad or LazyVim. Not to say that I am opposed to incorporating
-one of these in the future. I just wanted to build my initial config from scratch for my personal understanding Nvim. "From scratch" does not
+one of these in the future. I just wanted to build my initial config from scratch for my personal understanding of Nvim. "From scratch" does not
 mean I didn't pull in an third-party plugins; as you will see, I use plenty.
 
 To begin, I followed what I felt was a very standard project structure. Starting from one's home directory:
@@ -38,8 +38,9 @@ To begin, I followed what I felt was a very standard project structure. Starting
             |-- plugins
 ```
 
-You can consider the `nvim/` to be the top level of the true nvim directory. That has two very important things in it: `init.lua` and `lua/`. The init file
-contains directions to everything nvim needs at startup. The lua directory contain all things that the lua file is directing nvim towards.
+You can consider the `nvim/` directory of this repository to be the top level of the true nvim directory that should live in your home directory.
+That has two very important things in it: `init.lua` and `lua/`. The init file contains directions to everything nvim needs at startup.
+The lua directory contain all things that the lua file is directing nvim towards.
 
 Inside the lua directory is `config` and `plugins`. Similar to the names, the config directory only contains base configuration of Nvim. More specifically,
 that means it does not include anything from a third-party. There is one exception to this, but I will mention that later on. The plugin directory, as the name suggests,
@@ -115,11 +116,11 @@ The rest are cosmetic.
 
 ## 5. Tmux Setup
 
-2. Clone Tmux plugin manager, tpm: `git clone https://github.com/tmux-plugins/tpm ~/.tmux/plugins/tpm`. [Docs](https://github.com/tmux-plugins/tpm)
-3. Enter Tmux in command line: `tmux`
-4. Navigate to `tmux.conf` file and press `Ctrl I` (control shit i)
+1. Clone Tmux plugin manager (tpm): `git clone https://github.com/tmux-plugins/tpm ~/.tmux/plugins/tpm`. [Docs](https://github.com/tmux-plugins/tpm)
+2. Enter Tmux in command line: `tmux`
+3. Navigate to `tmux.conf` file and press `Ctrl I` (control shift i)
 
-## Stow Dot Files
+## 6. Stow Dot Files
 
 From the root of this repository, run these stow commands
 
