@@ -1,7 +1,6 @@
 local opt = vim.opt
 
 -- line
-opt.relativenumber = true
 opt.number = true
 opt.wrap = false
 opt.cursorline = true
