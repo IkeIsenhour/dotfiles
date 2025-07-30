@@ -88,6 +88,9 @@ The rest are cosmetic.
     - if installed and configured but not working, make sure GOPATH is added to $PATH
   - Formatter: gofmt
     - Installed with Go Installation
+  - Can also do with Homebrew
+    - brew install go
+    - brew install gopls
 - Python
   - LSP: pylsp
     - `pip install python-lsp-server`
