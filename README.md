@@ -101,6 +101,9 @@ The rest are cosmetic.
   - npm install -g js-beautify
 - CSS
   - npm install -g prettier
+- Terraform
+  - brew install terraform-ls
+  - terraform_fmt is automatically available
 
 ### Neovim Formatters
 

@@ -38,6 +38,8 @@ return {
           jsx = { "prettier" },
           sql = { "sql_formatter" },
           lua = { "stylua" },
+          tf = { "terraform_fmt" },
+          terraform = { "terraform_fmt" },
         },
         format_on_save = {
           enabled = true,
