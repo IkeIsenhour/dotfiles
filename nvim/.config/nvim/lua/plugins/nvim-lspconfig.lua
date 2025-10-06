@@ -18,9 +18,13 @@ return {
       require("lspconfig").lua_ls.setup({})
       require("lspconfig").gopls.setup({})
       require("lspconfig").pylsp.setup({})
+      require("lspconfig").templ.setup({
+        filetypes = { "templ" },
+        cmd = { "templ", "lsp" },
+      })
       require("lspconfig").terraformls.setup({
-        cmd = { "terraform-ls", "serve" },
         filetypes = { "terraform", "tf" },
+        cmd = { "terraform-ls", "serve" },
       })
 
       require("cmp_nvim_lsp").default_capabilities()

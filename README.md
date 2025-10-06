@@ -103,7 +103,10 @@ The rest are cosmetic.
   - npm install -g prettier
 - Terraform
   - brew install terraform-ls
-  - terraform_fmt is automatically available
+  - `terraform_fmt` is automatically available
+- Templ
+  - installed with templ installation
+  - `templ fmt` is the command
 
 ### Neovim Formatters
 

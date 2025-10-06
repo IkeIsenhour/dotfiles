@@ -9,6 +9,11 @@ return {
           stylua = {
             prepend_args = { "--indent-type", "Spaces", "--indent-width", "2" },
           },
+          templ = {
+            command = "templ",
+            args = { "fmt" },
+            stdin = true,
+          },
           ["html-beautify"] = {
             command = "html-beautify", -- The command to use (ensure it's installed globally)
             args = {
@@ -40,6 +45,7 @@ return {
           lua = { "stylua" },
           tf = { "terraform_fmt" },
           terraform = { "terraform_fmt" },
+          templ = { "templ" },
         },
         format_on_save = {
           enabled = true,
