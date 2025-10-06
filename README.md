@@ -98,15 +98,17 @@ The rest are cosmetic.
   - Formatter: black
     - `pip install black`
 - HTML/GOHTML
-  - npm install -g js-beautify
+  - `npm install -g js-beautify`
 - CSS
-  - npm install -g prettier
+  - `npm install -g prettier`
 - Terraform
-  - brew install terraform-ls
+  - `brew install terraform-ls`
   - `terraform_fmt` is automatically available
 - Templ
   - installed with templ installation
   - `templ fmt` is the command
+- TailwindCSS
+  - `npm install -g @tailwindcss/language-server`
 
 ### Neovim Formatters
 

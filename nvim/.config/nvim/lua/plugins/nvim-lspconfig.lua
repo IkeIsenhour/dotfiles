@@ -26,6 +26,21 @@ return {
         filetypes = { "terraform", "tf" },
         cmd = { "terraform-ls", "serve" },
       })
+      require("lspconfig").tailwindcss.setup({
+        filetypes = {
+          "html",
+          "css",
+          "scss",
+          "javascript",
+          "javascriptreact",
+          "typescript",
+          "typescriptreact",
+          "vue",
+          "svelte",
+          "templ",
+          "gohtml",
+        },
+      })
 
       require("cmp_nvim_lsp").default_capabilities()
 
